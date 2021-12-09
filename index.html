@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+2&family=Oswald:wght@500;700&family=Poppins:wght@200&family=Praise&family=Shippori+Antique&family=Source+Sans+Pro:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/da824f784d.js" crossorigin="anonymous"></script>
+
+    <title>Hello, world!</title>
+    <style>
+        body {
+            font-family: 'M PLUS 2',
+                sans-serif;
+            font-family: 'Oswald',
+                sans-serif;
+            font-family: 'Poppins',
+                sans-serif;
+            font-family: 'Praise';
+            font-family: 'Shippori Antique',
+                sans-serif;
+            font-family: 'Source Sans Pro',
+                sans-serif;
+        }
+
+        .nav-elements {
+            margin-left: 600px;
+        }
+
+        .logo-image {
+            width: 200%;
+        }
+
+        .header-image {
+            width: 100%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .winter-text {
+            color: orange;
+
+        }
+
+        .header-image-with-background {
+            margin-right: 50px;
+        }
+
+        .descriptions {
+            margin-left: 50px;
+
+        }
+
+        .heading {
+            font-size: 60px;
+        }
+
+        .btn {
+            background-color: lightgreen;
+            margin: -2px;
+            padding: 10px 35px;
+            border-radius: 10px;
+            height: 50px;
+        }
+
+        .btn:hover {
+            background-color: limegreen;
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: 45vw;
+            object-fit: cover;
+        }
+
+        .card-des,
+        .card-des-1 {
+            border: none;
+            box-shadow: 5px 10px 20px lightslategray;
+        }
+
+
+        .btn1 {
+            background-color: lightgreen;
+            padding: 10px 35px;
+            border-radius: 10px;
+            height: 50px;
+            border: none;
+        }
+
+        .bal {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h2 {
+            color: orange;
+        }
+
+        .last {
+            width: 60px;
+            display: flex;
+            align-items: center;
+            height: 1300px;
+            margin-top: -300px;
+            margin-left: 100px;
+
+        }
+
+        .last-pic {
+            width: 590px;
+            height: 350px;
+            box-shadow: 10px 20px 10px lightslategray;
+        }
+
+        .cl {
+            width: 50px;
+        }
+
+        .cal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 10px 20px 10px lightslategray;
+        }
+
+        .tp {
+
+            width: 300px;
+            margin: 30px;
+        }
+
+        .brdr {
+            box-shadow: 10px 20px 100px lightslategray;
+        }
+    </style>
+</head>
+
+<body class="main">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <header>
+        <!--Start Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light h-5">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-4" href="#">
+                    <img src="images/logo/logo.png" class="logo-image" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-elements" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+        <!--start header image portion -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <div class="descriptions">
+                                <h1 class="heading">BE THE PENGUINS OF <br> <span class="winter-text">THE WINTER</span>
+                                </h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facere hic fugiat,
+                                    aperiam doloremque in.</p>
+                                <div class="d-flex">
+                                    <div>
+                                        <button class="btn"><i class="fas fa-shopping-cart me-2"></i>Buy Now</button>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 ">
+                            <div class="header-image-with-background">
+                                <img src="images/header image/header_image_with_background.png" class="d-block w-100 "
+                                    alt="...">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header image portion -->
+    </header>
+    <main>
+        <!-- start women jacket card -->
+        <h1 class="mt-5 ms-2">WOMEN'S JACKET</h1>
+        <div class="card-group mt-5 ">
+            <div class="card card-1 card-des">
+                <div class="w-jacket"><img src="images/women jacket/image 15.png" class="card-img-top " alt="..."></div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer border-0">
+                    <div class=" bal">
+                        <div class="">
+                            <h2 class="">1220$</h2>
+                        </div>
+                        <div class="">
+                            <button class="btn1"><i class="fas fa-shopping-cart "></i>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-1 card-des">
+                <div class="w-jacket"><img src="images/women jacket/PngItem_2597366 1.png" class="card-img-top"
+                        alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                </div>
+                <div class="card-footer border-0 ">
+                    <div class=" bal">
+                        <div class="">
+                            <h2 class="">2120$</h2>
+                        </div>
+                        <div class="">
+                            <button class="btn1"><i class="fas fa-shopping-cart "></i>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-1 card-des">
+                <div class="w-jacket"> <img src="images/women jacket/SeekPng 1.png" class="card-img-top " alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+                <div class="card-footer border-0 ">
+                    <div class=" bal">
+                        <div class="">
+                            <h2 class="">2320$</h2>
+                        </div>
+                        <div class="">
+                            <button class="btn1"><i class="fas fa-shopping-cart "></i>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end women jacket card -->
+
+        <!-- start man jacket card -->
+        <h1 class="mt-5 ms-2">MAN'S JACKET</h1>
+        <div class="card-group mt-5 ">
+            <div class="card card-1 card-des-1">
+                <div class="w-jacket"><img src="images/men's jacket/image 11.png" class="card-img-top " alt="..."></div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer border-0">
+                    <div class=" bal">
+                        <div class="">
+                            <h2 class="">1220$</h2>
+                        </div>
+                        <div class="">
+                            <button class="btn1"><i class="fas fa-shopping-cart "></i>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-1 card-des-1">
+                <div class="w-jacket"><img src="images/men's jacket/toppng 1.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                </div>
+                <div class="card-footer border-0 ">
+                    <div class=" bal">
+                        <div class="">
+                            <h2 class="">2120$</h2>
+                        </div>
+                        <div class="">
+                            <button class="btn1"><i class="fas fa-shopping-cart "></i>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-1 card-des-1">
+                <div class="w-jacket"> <img src="images/men's jacket/vippng 1.png" class="card-img-top " alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+                <div class="card-footer border-0 ">
+                    <div class=" bal">
+                        <div class="">
+                            <h2 class="">2320$</h2>
+                        </div>
+                        <div class="">
+                            <button class="btn1"><i class="fas fa-shopping-cart "></i>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end man jacket card -->
+
+        <!-- last -->
+
+        <div class="last">
+            <div>
+                <div class="cal ">
+                    <div>
+                        <img src="images/last section/image 12.png" class="cl" alt="">
+                    </div>
+                    <div class="tp">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, sunt</p>
+                    </div>
+                </div>
+                <div class="cal">
+                    <div>
+                        <img src="images/last section/image 13.png" class="cl" alt="">
+                    </div>
+                    <div class="tp">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, sunt</p>
+                    </div>
+                </div>
+                <div class="cal">
+                    <div>
+                        <img src="images/last section/image 14.png" class="cl" alt="">
+                    </div>
+                    <div class="tp">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, sunt</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/last section/XMLID 1.png" class="last-pic" alt="">
+            </div>
+
+
+
+
+
+        </div>
+
+    </main>
+</body>
+
+</html>
